@@ -12,7 +12,7 @@ type Resource = { id: string; label: string; singular: string; endpoint: string;
 type Row = Record<string, unknown>
 type User = { nome?: string; email?: string }
 
-const API_DEFAULT = import.meta.env.VITE_API_URL || (import.meta.env.DEV ? '/api' : 'https://backend-wer5.onrender.com')
+const API_DEFAULT = import.meta.env.VITE_API_URL || (import.meta.env.DEV ? '/api' : 'https://backend-unze.onrender.com')
 const inventoryFields: Field[] = [
   { key: 'id_produto', label: 'ID do produto', type: 'number', required: true },
   { key: 'quantidade', label: 'Quantidade', type: 'number', required: true },
