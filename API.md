@@ -71,7 +71,7 @@ Use `npm ci` para instalar as dependências a partir do lockfile; o script `post
 
 ### Endereço público
 
-URL pública da API informada pelo serviço Render: **https://backend-wer5.onrender.com**. Use-a como URL base para as chamadas. A raiz `/` apresenta a página inicial da API e `/health` verifica a conexão; a resposta esperada de saúde é `{ "status": "ok", "database": "ok" }`. Se o serviço for renomeado ou recriado, confirme a URL vigente no painel Render. A URL pública do frontend é independente e deve ser obtida no serviço estático correspondente.
+URL pública da API informada pelo serviço Render: **https://backend-unze.onrender.com**. Use-a como URL base para as chamadas. A raiz `/` apresenta a página inicial da API e `/health` verifica a conexão; a resposta esperada de saúde é `{ "status": "ok", "database": "ok" }`. Se o serviço for renomeado ou recriado, confirme a URL vigente no painel Render. A URL pública do frontend é independente e deve ser obtida no serviço estático correspondente.
 
 ## Formato das requisições
 

@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://backend-wer5.onrender.com',
+        target: 'https://backend-unze.onrender.com',
         changeOrigin: true,
         secure: true,
         rewrite: path => path.replace(/^\/api/, ''),
